@@ -3,7 +3,7 @@ export function Post(props) {
   console.log(props);
   return (
     <>
-      <article className={styles.Post}>
+      <article className={styles.post}>
         <header>
           <div className={styles.author}>
             <img
@@ -11,9 +11,10 @@ export function Post(props) {
               alt=""
               className={styles.avatar}
             />
-            <div className={styles.authorInfo}></div>
+            <div className={styles.authorInfo}>
             <strong>Arsenio Muta</strong>
             <span>Web developer</span>
+            </div>
           </div>
           <time title="12 de Janeiro as 8:00" dateTime="2023-01-12 08:00:56">
             Publicado há 1h
@@ -26,8 +27,12 @@ export function Post(props) {
             no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare
             🚀
           </p>
-          <p><a href="#">👉 jane.design/doctorcare</a></p>
-          <p><a href="">#novoprojeto</a><a href=""> #nlw</a><a href="#  "> #rocketseat</a></p>
+          <p><a href="#">👉{" "} jane.design/doctorcare</a></p>
+          <p>
+            <a href="">#novoprojeto</a>{" "}
+            <a href=""> #nlw</a>{" "}
+            <a href="#  "> #rocketseat</a>
+          </p>
         </div>
       </article>
     </>
