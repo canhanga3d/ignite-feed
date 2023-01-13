@@ -11,7 +11,7 @@ export function App() {
       author: {
         avatarUrl: "https://github.com/domingoscanhanga.png",
         name: "Domingos Canhanga",
-        role: "Web developer,",
+        role: "Web developer",
       },
       content: [
         { type: "paragraph", content: "Fala galeraa 👋" },
@@ -25,7 +25,7 @@ export function App() {
           content:'👉 jane.design/doctorcare',
         }
       ],
-    publishedAt:new Date('2022-05-03 20:00:00'),
+    publishedAt: new Date('2023-01-12 08:00:56'),
     },
 
     {
@@ -33,7 +33,7 @@ export function App() {
       author: {
         avatarUrl: "https://github.com/Arsenio-Antonio-muta.png",
         name: "Arsênio Muta",
-        role: "Web developer,",
+        role: "Web developer and Mobile Developer",
       },
       content: [
         { type: "paragraph", content: "Fala galeraa 👋" },
