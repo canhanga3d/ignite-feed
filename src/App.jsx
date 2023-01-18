@@ -9,7 +9,7 @@ export function App() {
     {
       id: 1,
       author: {
-        avatarUrl: "https://github.com/domingoscanhanga.png",
+        avatarUrl: "https://github.com/canhanga3d.png",
         name: "Domingos Canhanga",
         role: "Web developer",
       },
